@@ -1,0 +1,60 @@
+[credential]
+    helper = osxkeychain
+[user]
+    name = Key Hoffman
+    email = key.hoffman.dev@gmail.com
+[core]
+	editor = vi
+[color]
+    branch = auto
+    diff = auto
+    status = auto
+[color "branch"]
+#current = yellow reverse
+    local = yellow
+    remote = green
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan
+[alias]
+    st = status -s
+    co = checkout
+    di = diff
+    dic = diff --cached
+    rem = remote -v
+    b = branch -vv
+    ba = branch -vv -a
+    bd = branch -d
+    bu = branch -u
+    cob = checkout -b
+    com = commit -am
+    can = commit --amend --no-edit
+    pgl = push gitlab
+    pgh = push github
+    pbb = push bitbucket
+    unstage = reset
+    uncommit = reset --soft HEAD^
+    rp = remote prune
+    pu = push --set-upstream
+
+
+hp = "!. ~/.githelpers && show_git_head"
+ll = "!. ~/.githelpers && pretty_git_log"
+l = "!. ~/.githelpers && pretty_git_log -7"
+l1 = "!. ~/.githelpers && pretty_git_log -1"
+l2 = "!. ~/.githelpers && pretty_git_log -2"
+l3 = "!. ~/.githelpers && pretty_git_log -3"
+l4 = "!. ~/.githelpers && pretty_git_log -4"
+l5 = "!. ~/.githelpers && pretty_git_log -5"
+l6 = "!. ~/.githelpers && pretty_git_log -6"
+l7 = "!. ~/.githelpers && pretty_git_log -7"
+l8 = "!. ~/.githelpers && pretty_git_log -8"
+l9 = "!. ~/.githelpers && pretty_git_log -9"
+l10 = "!. ~/.githelpers && pretty_git_log -10"
+l20 = "!. ~/.githelpers && pretty_git_log -20"
