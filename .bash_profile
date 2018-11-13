@@ -225,9 +225,10 @@ cdra() { cd /Applications/; clear; ls; }        # Change working directory to ro
 cdd() { cd ~/Desktop/; clear; ls; }            # Change working directory to desktop, clear the terminal window, and then list the contents of the desktop
 cdds() { cd ~/Desktop/Swift/; clear; ls; }      # Change working directory to swift, clear the terminal window, and then list the contents of the swift directory
 cddf() { cd ~/Desktop/Flipmass/; clear; ls; }   # Change working directory to flipmass, clear the terminal window, and then list the contents of the flipmass directory
-cdsd() { cd ~/Downloads/; clear; ls; }         # Change the working directory to downloads, clear the terminal window, and the list the contents of downloads
+cdsd() { cd ~/Downloads/; clear; ls; }         # Change the working directory to downloads, clear the terminal window, and then list the contents of downloads
 cdsx() { cd ~/Library/Developer/Xcode/; clear; ls; }
 cdsc() { cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/Desktop/; clear; ls; }
+cddpi() { cd ~/Desktop/DPI/; clear; ls; }       # Change working directory to `DPI`, clear the terminal window, and then list the contents of the `DPI` directory
 
 cl() { clear; ls; }                              # Clear the terminal window and then list the contents of the working directory
 lsa() { clear; ls -a; }
