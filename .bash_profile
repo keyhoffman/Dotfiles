@@ -96,6 +96,13 @@ git push -u origin master > /dev/null 2>&1
 echo " done."
 }
 
+#   Go Build AWS -- Main
+#   -----------------------------------------------------------
+
+gobuildaws() {
+    GOOS=linux GOARCH=amd64 go build -o main main.go
+    zip main.zip main
+}
 
 #   Case-insensitive globbing (used in pathname expansion)
 #   -----------------------------------------------------------
