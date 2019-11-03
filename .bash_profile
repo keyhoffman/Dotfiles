@@ -100,8 +100,8 @@ echo " done."
 #   -----------------------------------------------------------
 
 gobuildaws() {
-    GOOS=linux GOARCH=amd64 go build -o main main.go
-    zip -j main.zip main
+    GOOS=linux GOARCH=amd64 go build -o /tmp/$1 $1.go
+    zip -j /tmp/$1.zip /tmp/$1
 }
 
 #   Case-insensitive globbing (used in pathname expansion)
