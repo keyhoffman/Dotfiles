@@ -123,8 +123,8 @@ export ARCHFLAGS="-arch x86_64"
 
 #   Set Paths
 #   -----------------------------------------------------------
-export PATH="$PATH:/usr/local/bin:/Applications/Google\ Chrome.app/Contents/MacOS"
-export PATH="$HOME/.fastlane/bin:$PATH"
+# export PATH="$PATH:/usr/local/bin:/Applications/Google\ Chrome.app/Contents/MacOS"
+# export PATH="$HOME/.fastlane/bin:$PATH"
 
 #   Load .bashrc
 #   -----------------------------------------------------------
@@ -150,24 +150,7 @@ alias sub='open -a Sublime\ Text'
 alias vs='open -a Visual\ Studio\ Code'
 alias rs='open -a Realm\ Studio'
 
-alias post='open -a Postman'
-
-alias gc='open -a Google\ Chrome'
-alias saf='open -a Safari'
-
-alias slack='open -a Slack'
-alias spark='open -a Spark'
-
-alias 1pass='open -a 1Password\ 6'
-alias skc='open -a Sketch'
-
-alias ev='open -a Evernote'
-alias bear='open -a Bear'
-
 alias catr='cat README.md'
-
-alias cm='open -a Digital\ Color\ Meter'
-alias sys='open -a System\ Preferences'
 
 alias xcp='open -a Xcode *.xcodeproj/'
 alias xcw='open -a Xcode *.xcworkspace/'
@@ -194,8 +177,8 @@ alias rmf='rm -rfv'
 
 alias countf='ls | wc -l'
 
-alias doc='brew doctor'
-alias brewup='brew update'
+# alias doc='brew doctor'
+# alias brewup='brew update'
 
 alias c='clear'
 alias ..='cd ../'                               # Go back 1 directory level
@@ -211,8 +194,8 @@ alias xcg='open -a Xcode ~/.gitconfig'
 
 alias devpy='dev_appserver.py'
 
-alias sdn='sudo shutdown -h now'                # shutdown the computer
-alias sdr='sudo shutdown -r now'                # restart the computer
+# alias sdn='sudo shutdown -h now'                # shutdown the computer
+# alias sdr='sudo shutdown -r now'                # restart the computer
 
 #   Command Functions
 #   -------------------------------------------------------------
