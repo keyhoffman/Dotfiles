@@ -96,13 +96,20 @@ git push -u origin master > /dev/null 2>&1
 echo " done."
 }
 
-#   Go Build AWS -- Main
+#  AWS
 #   -----------------------------------------------------------
 
+
+# Go Build
 gobuildaws() {
     GOOS=linux GOARCH=amd64 go build -o /tmp/$1 $1.go
     zip -j /tmp/$1.zip /tmp/$1
 }
+
+# Serverless Environment variables
+EXPORT AWS_ACCESS_KEY_ID_SERVERLESS=AKIARRISWSLXJCDQXHEB
+EXPORT AWS_SECRET_ACCESS_KEY_SERVERLESS=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
+EXPORT AWS_DEFAULT_REGION_SERVERLESS=us-east-1
 
 #   Case-insensitive globbing (used in pathname expansion)
 #   -----------------------------------------------------------
