@@ -107,9 +107,9 @@ gobuildaws() {
 }
 
 # Serverless Environment variables
-EXPORT AWS_ACCESS_KEY_ID_SERVERLESS=AKIARRISWSLXJCDQXHEB
-EXPORT AWS_SECRET_ACCESS_KEY_SERVERLESS=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
-EXPORT AWS_DEFAULT_REGION_SERVERLESS=us-east-1
+export AWS_ACCESS_KEY_ID_SERVERLESS=AKIARRISWSLXJCDQXHEB
+export AWS_SECRET_ACCESS_KEY_SERVERLESS=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
+export AWS_DEFAULT_REGION_SERVERLESS=us-east-1
 
 #   Case-insensitive globbing (used in pathname expansion)
 #   -----------------------------------------------------------
