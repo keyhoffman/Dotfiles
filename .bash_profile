@@ -208,6 +208,8 @@ alias devpy='dev_appserver.py'
 alias sdn='sudo shutdown -h now'                # shutdown the computer
 alias sdr='sudo shutdown -r now'                # restart the computer
 
+alias svs='serverless'
+
 #   Command Functions
 #   -------------------------------------------------------------
 
