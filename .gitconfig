@@ -31,6 +31,7 @@
     b = branch -vv
     ba = branch -vv -a
     bd = branch -d
+	bD = branch -D
     bu = branch -u
     cob = checkout -b
     com = commit -am
